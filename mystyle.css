@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+  color: blue;
+  font-family: "Comfortaa", sans-serif;
+}
+
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+<a href="https://starlitpixy.github.io/page2">Page 2</a><br>
+<a href="https://starlitpixy.github.io/page3">Page 3</a><br>
+<a href="https://starlitpixy.github.io/page4">Page 4</a><br>
+*/
+li {
+  display: inline;
+  float: center;
+  }
+
+body {
+  background-image: url('OrangeBlueBKG.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  font-family: "Comfortaa", sans-serif;
+}
+ /* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} 
