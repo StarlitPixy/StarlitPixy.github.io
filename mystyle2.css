@@ -24,16 +24,11 @@ li {
   }
 
 body {
-  background-image: url('OrangeBlueBKG.jpg');
+  background-image: url('bannerqernindconcpt.png'), url('OrangeBlueBKG.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
   font-family: "Comfortaa", sans-serif;
-}
-/*centerer thing*/
-.content {
-  max-width: 500px;
-  margin: auto;
 }
  /* The navbar container */
 .topnav {
